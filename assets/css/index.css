@@ -1,0 +1,51 @@
+/* htmnl{
+  font-size: ;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid-container {
+  display: grid;
+  width: 1000px;
+  height: 500px;
+  gap: 20px;
+  background-color: #0e4d80;
+  padding: 10px;
+}
+
+.grid-item {
+  justify-content: center;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  color: black;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* item ayarlari */
+.item1 {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+.item6 {
+  grid-column: 2;
+  grid-row: 3 / span 2;
+}
+.item7 {
+  grid-column: 3 / span 2;
+  grid-row: 1;
+}
+.item8 {
+  grid-column: 3;
+  grid-row: 2 / span 2;
+}
+.item11 {
+  grid-column: 3 / span 2;
+  grid-row: 4;
+}
